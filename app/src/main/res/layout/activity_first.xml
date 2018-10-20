@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/make_toast"
+        android:text="弹出吐司提示"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_first_explicit_to_second"
+        android:text="显式跳转到secondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_first_implicit_to_second"
+        android:text="隐式跳转到secondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_first_implicit_to_callPhone"
+        android:text="隐式跳转到拨号界面"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_first_implicit_to_browser"
+        android:text="隐式跳转到浏览器"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_first_input_data_to_second"
+        android:hint="输入数据，按“传输”按钮，将数据传输到secondActivity"
+        android:maxLines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_first_explicit_transmit_second"
+        android:text="传输"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_first_display_back_data"
+        android:hint="此处用于显示secondActivity返回的数据"
+        android:maxLines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_first_to_expand"
+        android:text="拓展页面"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
